@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <title>Login | Sistema de Cadastro</title>
+    <title>Home | Sistema de Cadastro</title>
 </head>
 <body>
     <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
@@ -24,20 +24,11 @@
             <a type="button" class="btn btn-primary" href="cadastro.php">Inscrever-se</a>
         </div>
     </header>
+    
     <section>
-        <div class="container">
-            <h1 class="text-center text-primary my-5">Login</h1>
-            <form action="test-login.php" method="POST">
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control mb-3" id="email" name="email" placeholder="Email" required>
-                </div>
-                <div class="form-group">
-                    <label for="password">Senha</label>
-                    <input type="password" class="form-control mb-3" id="password" name="password" placeholder="Senha">
-                </div>
-                <input type="submit" id="submit" name="submit" class="btn btn-primary" value="Entrar">
-            </form>
+        <div class="container text-center">
+            <h1>Bem-Vindo!</h1>
+            <h3>A nossa página principal.</h3>
         </div>
     </section>
 </body>
