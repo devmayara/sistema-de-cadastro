@@ -49,7 +49,7 @@ if(isset($_POST['submit']))
 </head>
 <body>
     <div class="container">
-        <h1 class="text-center text-primary my-5">Cadastro de Clientes</h1>
+        <h1 class="text-center text-primary my-5">Cadastrar Clientes</h1>
         <form action="cadastro.php" method="POST">
             <div class="form-group">
                 <label for="name">Nome</label>
