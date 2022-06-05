@@ -27,6 +27,10 @@ if(!empty($_GET['id']))
         header('Location: sistema.php');
     }
 }
+else
+{
+    header('Location: sistema.php');
+}
 
 ?>
 
