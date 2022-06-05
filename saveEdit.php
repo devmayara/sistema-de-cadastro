@@ -1,5 +1,5 @@
 <?php
-// isset -> serve para saber se uma variável está definida
+// isset -> para saber se uma variável está definida
 include_once('connect.php');
 
 if(isset($_POST['update']))
